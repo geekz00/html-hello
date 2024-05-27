@@ -1,0 +1,73 @@
+/*título de la página*/
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header h1 {
+    margin: 0;
+}
+
+/*contenido, feed*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(226, 226, 226);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/*estructura de un post*/
+.post {
+    width: 700px;
+    height: auto;
+    margin-bottom: 75px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*head de cada post*/
+.posthead {
+    display: flex;
+    height: 60px;
+}
+.posthead h2 {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    width: 100%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.posthead p {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(155, 155, 155);
+}
+
+/*imagen y subtítulo de cada post*/
+.postimg img{
+    width: 100%;
+    height: auto;
+}
+
+.posttext {
+    padding-left: 5px;
+    height: 60px;
+}
+.posttext p, b{
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
